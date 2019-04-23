@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D3D3D3">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:minHeight="55dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:titleTextColor="#3C2F21"
+            android:background="@color/colorPrimary">
+        </android.support.v7.widget.Toolbar>
+
+
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:map="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/map"
+            android:layout_marginBottom="55dp"
+            android:layout_below="@id/toolbar"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MapActivity" />
+
+
+        <Button
+            android:id="@+id/currentLocationText"
+            android:layout_width="347dp"
+            android:layout_height="60dp"
+            android:background="@android:color/white"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="74dp"
+            android:ellipsize="end"
+            android:maxLines="1" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/map_marker_move"
+            android:layout_centerInParent="true"
+            android:src="@drawable/location" />
+
+
+    </RelativeLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:id="@+id/bottom_sheet"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/bottom_sheet_behavior"
+        app:behavior_hideable="false"
+        app:behavior_peekHeight="55dp">
+
+        <RelativeLayout
+            android:background="#FFCB16"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="Submit a request"
+                android:textSize="25sp"
+                android:id="@+id/textSubmitRequest"
+                android:gravity="center"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#3C2F21"
+                android:layout_below="@id/textSubmitRequest"></RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_below="@id/textSubmitRequest"
+                android:layout_width="match_parent"
+                android:id="@+id/service_layout"
+                android:layout_height="wrap_content">
+
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:scrollbars="none"
+                    android:layout_height="150dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1.0"
+                            android:gravity="center"
+                            android:id="@+id/service1"
+                            android:orientation="vertical"
+                            android:layout_height="match_parent">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/service1"/>
+
+
+                            <TextView
+                                android:layout_marginLeft="10dp"
+                                android:layout_width="120dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_height="wrap_content"
+                                android:text="At Home service"
+                                android:textColor="#272626"
+                                android:textSize="15sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1.0"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:layout_height="match_parent">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/service2"/>
+
+
+                            <TextView
+                                android:layout_width="120dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_height="wrap_content"
+                                android:text="Breakdown Support"
+                                android:textColor="#272626"
+                                android:textSize="15sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1.0"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:layout_height="match_parent">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/service3"/>
+
+
+                            <TextView
+                                android:layout_width="120dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_height="wrap_content"
+                                android:text="Towing Service"
+                                android:textColor="#272626"
+                                android:textSize="15sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1.0"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:layout_height="match_parent">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/service4"/>
+
+
+                            <TextView
+                                android:layout_width="120dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_height="wrap_content"
+                                android:text="Service and repair"
+                                android:textColor="#272626"
+                                android:textSize="15sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1.0"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:layout_height="match_parent">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/service5"/>
+
+
+                            <TextView
+                                android:layout_width="120dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_height="wrap_content"
+                                android:text="Car cleaning and polish"
+                                android:textColor="#272626"
+                                android:textSize="15sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1.0"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:layout_height="match_parent">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/service6"/>
+
+
+                            <TextView
+                                android:layout_width="120dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_height="wrap_content"
+                                android:text="Subscription Package"
+                                android:textColor="#272626"
+                                android:textSize="15sp" />
+
+
+                        </LinearLayout>
+
+
+
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,4 @@
+#Sun Nov 25 13:40:22 IST 2018
+base.0=/home/shubham/AndroidNewProjects/Driveaze-20180711T060922Z-001/Driveaze/app/build/intermediates/transforms/dexMerger/debug/7
+path.0=classes.dex
+renamed.0=classes.dex

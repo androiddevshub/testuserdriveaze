@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "714420971270",
+    "firebase_url": "https://driveaze-customer.firebaseio.com",
+    "project_id": "driveaze-customer",
+    "storage_bucket": "driveaze-customer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714420971270:android:efb8c103aed99f46",
+        "android_client_info": {
+          "package_name": "customer.app.driveaze.driveaze"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714420971270-9cqhpchuvd8kd28fg9jactk9p0f5boc7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "customer.app.driveaze.driveaze",
+            "certificate_hash": "47b8b0b3bd8f34145816d6e355dc28c2b74baa96"
+          }
+        },
+        {
+          "client_id": "714420971270-g2viuh15oa59pkirgg9q5vvud3qpvc85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2vXBYjyYHD6raRVUfgn-DNC5jhhS3Rjs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "714420971270-g2viuh15oa59pkirgg9q5vvud3qpvc85.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

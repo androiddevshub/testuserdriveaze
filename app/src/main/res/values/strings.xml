@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Driveaze</string>
+    <string name="title_activity_map">Map</string>
+    <string name="Rs">\u20B9</string>
+    <string name="open_drawer">Open drawer</string>
+    <string name="close_drawer">Close drawer</string>
+
+</resources>

@@ -1,0 +1,2 @@
+# Referenced at /home/shubham/AndroidNewProjects/Driveaze-20180711T060922Z-001/Driveaze/app/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:28
+-keep class android.support.multidex.MultiDexApplication { <init>(...); }

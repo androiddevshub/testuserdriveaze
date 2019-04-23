@@ -1,0 +1,301 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:2:1-63:12
+MERGED from [com.android.support:multidex:1.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/1f4e4d751db188609da1ee660311cf08/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/465d05a0919555572a9af629a80da790/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.karanchuri:PermissionManager:0.1.0] /home/shubham/.gradle/caches/transforms-2/files-2.1/432bad2040cfc316949227d007ec124f/AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/36533415bfadadbf4b94feeffec05615/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/f2808c7462dd44b9b06ecd65afd0b456/AndroidManifest.xml:2:1-11:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/shubham/.gradle/caches/transforms-2/files-2.1/24282b409a2fc2969215640eab7d61ef/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-places:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/2dd8d4c3d7aec41a1a0b650ac9c162d6/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/5c28097b785bd68e0fea95b09fb99dc0/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/90546404c348ba26f487f198bd9f1326/AndroidManifest.xml:2:1-9:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.5] /home/shubham/.gradle/caches/transforms-2/files-2.1/699bab7e357c11c7dbc63d7d9a86f630/AndroidManifest.xml:2:1-19:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:2.0.5] /home/shubham/.gradle/caches/transforms-2/files-2.1/04c135412e98a5e0ecb3b0844140cde3/AndroidManifest.xml:23:1-33:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/e1b974a7072e1c66aadd9933043f7697/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/93b08e9d45fbff8decfa7569699bbc44/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/36f8bddf94ee1662f6ca41d5fb0ac045/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/8148462732a5def4da274f14f9edadf0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/0687864b560a74a00129a48d05e5291a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/9b0b664f9bdf591bf3ca4f9a65572503/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/2fe75ac5df8554935ae50d1a17edef77/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/54c2cc95ded52215f1666ebabaa6349f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/5a5c55fa8aa04b09ab4cb8d9b133eeea/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/987ee08cef7ed4059da4c83eabf6b344/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/68884fc967b2458fdd30162049afa1d6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/24ad3f3a3e9d07970b13387442392f45/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/e5ad8cbd37e79084bf8dd2f0ce6e57d9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/345143c4191dd292beb45ced53b50af6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.4] /home/shubham/.gradle/caches/transforms-2/files-2.1/f17d2f7cfa36cb30cd729ad45a4436e8/AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.3] /home/shubham/.gradle/caches/transforms-2/files-2.1/44f6f4c14c40644cf604931c822b2a99/AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/shubham/.gradle/caches/transforms-2/files-2.1/4152bf1705b16b0b33529090c9d4ad84/AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.4] /home/shubham/.gradle/caches/transforms-2/files-2.1/c7a022af053aa3895af1893b7ca37e8d/AndroidManifest.xml:22:1-33:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/shubham/.gradle/caches/transforms-2/files-2.1/96e013a883245e8e6efed499e55a95bd/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:2:1-63:12
+	package
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:3:5-45
+		INJECTED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml
+		INJECTED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:2:1-63:12
+		INJECTED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:2:1-63:12
+		INJECTED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/5c28097b785bd68e0fea95b09fb99dc0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/5c28097b785bd68e0fea95b09fb99dc0/AndroidManifest.xml:24:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.5] /home/shubham/.gradle/caches/transforms-2/files-2.1/699bab7e357c11c7dbc63d7d9a86f630/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.5] /home/shubham/.gradle/caches/transforms-2/files-2.1/699bab7e357c11c7dbc63d7d9a86f630/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.4] /home/shubham/.gradle/caches/transforms-2/files-2.1/f17d2f7cfa36cb30cd729ad45a4436e8/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.4] /home/shubham/.gradle/caches/transforms-2/files-2.1/f17d2f7cfa36cb30cd729ad45a4436e8/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.3] /home/shubham/.gradle/caches/transforms-2/files-2.1/44f6f4c14c40644cf604931c822b2a99/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.3] /home/shubham/.gradle/caches/transforms-2/files-2.1/44f6f4c14c40644cf604931c822b2a99/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/shubham/.gradle/caches/transforms-2/files-2.1/4152bf1705b16b0b33529090c9d4ad84/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/shubham/.gradle/caches/transforms-2/files-2.1/4152bf1705b16b0b33529090c9d4ad84/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.4] /home/shubham/.gradle/caches/transforms-2/files-2.1/c7a022af053aa3895af1893b7ca37e8d/AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.4] /home/shubham/.gradle/caches/transforms-2/files-2.1/c7a022af053aa3895af1893b7ca37e8d/AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:13:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:14:5-78
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/5c28097b785bd68e0fea95b09fb99dc0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/5c28097b785bd68e0fea95b09fb99dc0/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:14:22-76
+uses-permission#android.permission.READ_SMS
+ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:15:5-66
+	android:name
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:15:22-64
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:16:5-69
+	android:name
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:16:22-67
+application
+ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:18:5-61:19
+MERGED from [com.github.karanchuri:PermissionManager:0.1.0] /home/shubham/.gradle/caches/transforms-2/files-2.1/432bad2040cfc316949227d007ec124f/AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.karanchuri:PermissionManager:0.1.0] /home/shubham/.gradle/caches/transforms-2/files-2.1/432bad2040cfc316949227d007ec124f/AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/f2808c7462dd44b9b06ecd65afd0b456/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/f2808c7462dd44b9b06ecd65afd0b456/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/shubham/.gradle/caches/transforms-2/files-2.1/24282b409a2fc2969215640eab7d61ef/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/shubham/.gradle/caches/transforms-2/files-2.1/24282b409a2fc2969215640eab7d61ef/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-places:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/2dd8d4c3d7aec41a1a0b650ac9c162d6/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/2dd8d4c3d7aec41a1a0b650ac9c162d6/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/5c28097b785bd68e0fea95b09fb99dc0/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/5c28097b785bd68e0fea95b09fb99dc0/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/90546404c348ba26f487f198bd9f1326/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/90546404c348ba26f487f198bd9f1326/AndroidManifest.xml:7:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.5] /home/shubham/.gradle/caches/transforms-2/files-2.1/699bab7e357c11c7dbc63d7d9a86f630/AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.5] /home/shubham/.gradle/caches/transforms-2/files-2.1/699bab7e357c11c7dbc63d7d9a86f630/AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:2.0.5] /home/shubham/.gradle/caches/transforms-2/files-2.1/04c135412e98a5e0ecb3b0844140cde3/AndroidManifest.xml:31:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:2.0.5] /home/shubham/.gradle/caches/transforms-2/files-2.1/04c135412e98a5e0ecb3b0844140cde3/AndroidManifest.xml:31:5-20
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/e1b974a7072e1c66aadd9933043f7697/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/e1b974a7072e1c66aadd9933043f7697/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/93b08e9d45fbff8decfa7569699bbc44/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/93b08e9d45fbff8decfa7569699bbc44/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/36f8bddf94ee1662f6ca41d5fb0ac045/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/36f8bddf94ee1662f6ca41d5fb0ac045/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/8148462732a5def4da274f14f9edadf0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/8148462732a5def4da274f14f9edadf0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.4] /home/shubham/.gradle/caches/transforms-2/files-2.1/f17d2f7cfa36cb30cd729ad45a4436e8/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.4] /home/shubham/.gradle/caches/transforms-2/files-2.1/f17d2f7cfa36cb30cd729ad45a4436e8/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.3] /home/shubham/.gradle/caches/transforms-2/files-2.1/44f6f4c14c40644cf604931c822b2a99/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.3] /home/shubham/.gradle/caches/transforms-2/files-2.1/44f6f4c14c40644cf604931c822b2a99/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/shubham/.gradle/caches/transforms-2/files-2.1/4152bf1705b16b0b33529090c9d4ad84/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/shubham/.gradle/caches/transforms-2/files-2.1/4152bf1705b16b0b33529090c9d4ad84/AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.4] /home/shubham/.gradle/caches/transforms-2/files-2.1/c7a022af053aa3895af1893b7ca37e8d/AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.4] /home/shubham/.gradle/caches/transforms-2/files-2.1/c7a022af053aa3895af1893b7ca37e8d/AndroidManifest.xml:31:5-20
+	android:supportsRtl
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:23:9-35
+	android:label
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:21:9-41
+	android:roundIcon
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:22:9-54
+	android:icon
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:20:9-43
+	android:allowBackup
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:19:9-35
+	android:theme
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:24:9-40
+activity#customer.app.driveaze.driveaze.LoginActivity
+ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:25:9-60
+	android:name
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:25:19-48
+activity#customer.app.driveaze.driveaze.SplashActivity
+ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:27:9-33:20
+	android:name
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:27:19-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:28:13-32:29
+action#android.intent.action.MAIN
+ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:31:17-77
+	android:name
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:31:27-74
+activity#customer.app.driveaze.driveaze.MainActivity
+ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:34:9-59
+	android:name
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:34:19-47
+activity#customer.app.driveaze.driveaze.MapActivity
+ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:35:9-58
+	android:name
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:35:19-46
+activity#customer.app.driveaze.driveaze.RegisterActivity
+ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:36:9-63
+	android:name
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:36:19-51
+activity#customer.app.driveaze.driveaze.TestActivity
+ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:37:9-59
+	android:name
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:37:19-47
+activity#customer.app.driveaze.driveaze.VehicleDetailActivity
+ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:38:9-68
+	android:name
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:38:19-56
+activity#customer.app.driveaze.driveaze.ChooseServiceActivity
+ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:39:9-68
+	android:name
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:39:19-56
+activity#customer.app.driveaze.driveaze.PasswordResetActivity
+ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:40:9-68
+	android:name
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:40:19-56
+meta-data#com.google.android.geo.API_KEY
+ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:50:9-52:55
+	android:value
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:52:13-52
+	android:name
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:51:13-58
+meta-data#com.google.android.gms.version
+ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:54:9-56:68
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/8148462732a5def4da274f14f9edadf0/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/8148462732a5def4da274f14f9edadf0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:56:13-66
+	android:name
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:55:13-58
+meta-data#io.fabric.ApiKey
+ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:58:9-60:72
+	android:value
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:60:13-69
+	android:name
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml:59:13-44
+uses-sdk
+INJECTED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml
+INJECTED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/1f4e4d751db188609da1ee660311cf08/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/1f4e4d751db188609da1ee660311cf08/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/465d05a0919555572a9af629a80da790/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/465d05a0919555572a9af629a80da790/AndroidManifest.xml:20:5-44
+MERGED from [com.github.karanchuri:PermissionManager:0.1.0] /home/shubham/.gradle/caches/transforms-2/files-2.1/432bad2040cfc316949227d007ec124f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.karanchuri:PermissionManager:0.1.0] /home/shubham/.gradle/caches/transforms-2/files-2.1/432bad2040cfc316949227d007ec124f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/36533415bfadadbf4b94feeffec05615/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/36533415bfadadbf4b94feeffec05615/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/f2808c7462dd44b9b06ecd65afd0b456/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/f2808c7462dd44b9b06ecd65afd0b456/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/shubham/.gradle/caches/transforms-2/files-2.1/24282b409a2fc2969215640eab7d61ef/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/shubham/.gradle/caches/transforms-2/files-2.1/24282b409a2fc2969215640eab7d61ef/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-places:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/2dd8d4c3d7aec41a1a0b650ac9c162d6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/2dd8d4c3d7aec41a1a0b650ac9c162d6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/5c28097b785bd68e0fea95b09fb99dc0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/5c28097b785bd68e0fea95b09fb99dc0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/90546404c348ba26f487f198bd9f1326/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/90546404c348ba26f487f198bd9f1326/AndroidManifest.xml:5:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.5] /home/shubham/.gradle/caches/transforms-2/files-2.1/699bab7e357c11c7dbc63d7d9a86f630/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.5] /home/shubham/.gradle/caches/transforms-2/files-2.1/699bab7e357c11c7dbc63d7d9a86f630/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:2.0.5] /home/shubham/.gradle/caches/transforms-2/files-2.1/04c135412e98a5e0ecb3b0844140cde3/AndroidManifest.xml:29:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:2.0.5] /home/shubham/.gradle/caches/transforms-2/files-2.1/04c135412e98a5e0ecb3b0844140cde3/AndroidManifest.xml:29:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/e1b974a7072e1c66aadd9933043f7697/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/e1b974a7072e1c66aadd9933043f7697/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/93b08e9d45fbff8decfa7569699bbc44/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/93b08e9d45fbff8decfa7569699bbc44/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/36f8bddf94ee1662f6ca41d5fb0ac045/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/36f8bddf94ee1662f6ca41d5fb0ac045/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/8148462732a5def4da274f14f9edadf0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/8148462732a5def4da274f14f9edadf0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/0687864b560a74a00129a48d05e5291a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/0687864b560a74a00129a48d05e5291a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/9b0b664f9bdf591bf3ca4f9a65572503/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/9b0b664f9bdf591bf3ca4f9a65572503/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/2fe75ac5df8554935ae50d1a17edef77/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/2fe75ac5df8554935ae50d1a17edef77/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/54c2cc95ded52215f1666ebabaa6349f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/54c2cc95ded52215f1666ebabaa6349f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/5a5c55fa8aa04b09ab4cb8d9b133eeea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/5a5c55fa8aa04b09ab4cb8d9b133eeea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/987ee08cef7ed4059da4c83eabf6b344/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/987ee08cef7ed4059da4c83eabf6b344/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/68884fc967b2458fdd30162049afa1d6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/68884fc967b2458fdd30162049afa1d6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/24ad3f3a3e9d07970b13387442392f45/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/24ad3f3a3e9d07970b13387442392f45/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/e5ad8cbd37e79084bf8dd2f0ce6e57d9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/e5ad8cbd37e79084bf8dd2f0ce6e57d9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/345143c4191dd292beb45ced53b50af6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/shubham/.gradle/caches/transforms-2/files-2.1/345143c4191dd292beb45ced53b50af6/AndroidManifest.xml:20:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.4] /home/shubham/.gradle/caches/transforms-2/files-2.1/f17d2f7cfa36cb30cd729ad45a4436e8/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.4] /home/shubham/.gradle/caches/transforms-2/files-2.1/f17d2f7cfa36cb30cd729ad45a4436e8/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.3] /home/shubham/.gradle/caches/transforms-2/files-2.1/44f6f4c14c40644cf604931c822b2a99/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.3] /home/shubham/.gradle/caches/transforms-2/files-2.1/44f6f4c14c40644cf604931c822b2a99/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/shubham/.gradle/caches/transforms-2/files-2.1/4152bf1705b16b0b33529090c9d4ad84/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/shubham/.gradle/caches/transforms-2/files-2.1/4152bf1705b16b0b33529090c9d4ad84/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.4] /home/shubham/.gradle/caches/transforms-2/files-2.1/c7a022af053aa3895af1893b7ca37e8d/AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.4] /home/shubham/.gradle/caches/transforms-2/files-2.1/c7a022af053aa3895af1893b7ca37e8d/AndroidManifest.xml:27:5-43
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/shubham/.gradle/caches/transforms-2/files-2.1/96e013a883245e8e6efed499e55a95bd/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/shubham/.gradle/caches/transforms-2/files-2.1/96e013a883245e8e6efed499e55a95bd/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml
+INJECTED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml
+		INJECTED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml
+		ADDED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml
+		INJECTED from /home/shubham/Driveaze/Driveaze/app/src/main/AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/5c28097b785bd68e0fea95b09fb99dc0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/5c28097b785bd68e0fea95b09fb99dc0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/5c28097b785bd68e0fea95b09fb99dc0/AndroidManifest.xml:28:9-32
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.5] /home/shubham/.gradle/caches/transforms-2/files-2.1/699bab7e357c11c7dbc63d7d9a86f630/AndroidManifest.xml:12:9-16:38
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.5] /home/shubham/.gradle/caches/transforms-2/files-2.1/699bab7e357c11c7dbc63d7d9a86f630/AndroidManifest.xml:14:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.5] /home/shubham/.gradle/caches/transforms-2/files-2.1/699bab7e357c11c7dbc63d7d9a86f630/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.5] /home/shubham/.gradle/caches/transforms-2/files-2.1/699bab7e357c11c7dbc63d7d9a86f630/AndroidManifest.xml:16:13-35
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.5] /home/shubham/.gradle/caches/transforms-2/files-2.1/699bab7e357c11c7dbc63d7d9a86f630/AndroidManifest.xml:13:13-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/e1b974a7072e1c66aadd9933043f7697/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/e1b974a7072e1c66aadd9933043f7697/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/e1b974a7072e1c66aadd9933043f7697/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/shubham/.gradle/caches/transforms-2/files-2.1/e1b974a7072e1c66aadd9933043f7697/AndroidManifest.xml:24:13-79

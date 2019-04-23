@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/DP20"
+    android:background="@color/back_grey">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OTP Verification"
+        android:id="@+id/textOTP"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/DP20"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textOTP"
+        android:layout_margin="@dimen/DP20"
+        android:id="@+id/textOTPVerify"
+        android:text="Enter OTP sent to 9876543210 to verify your account."
+        android:textSize="@dimen/DP20"
+        android:gravity="center"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/inputLayoutOTP"
+        android:layout_width="match_parent"
+        android:layout_below="@id/textOTPVerify"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <EditText
+            android:id="@+id/editTextOTP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="5dp"
+            android:hint="OTP"
+            android:gravity="center"
+            android:inputType="textPassword" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+
+    <Button
+        android:id="@+id/btnVerifyOTP"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputLayoutOTP"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/corner_button_signup"
+        android:text="Verify"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+
+
+
+</RelativeLayout>

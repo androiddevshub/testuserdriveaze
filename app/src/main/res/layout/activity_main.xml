@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="127dp"
+        android:src="@drawable/logo_final" />
+
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textSize="15sp"
+        android:id="@+id/mainsignUp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="210dp"
+        android:background="@drawable/corner_button_signup"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/mainSignIn"
+        android:layout_marginBottom="142dp"
+        android:background="@drawable/corner_button_login"
+        android:text="Sign In"
+        android:textColor="#F48D1E"
+        android:textSize="15sp"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+
+</RelativeLayout>

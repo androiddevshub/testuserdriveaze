@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/DP20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/SP15"
+                android:id="@+id/textvechicleNo"
+                android:textColor="@android:color/black"
+                android:text="VEHICLE REGISTRATION NUMBER"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DP40"
+                android:layout_below="@id/textvechicleNo"
+                android:layout_marginStart="@dimen/DP60"
+                android:layout_marginTop="@dimen/DP20"
+                android:textSize="@dimen/SP15"
+                android:layout_marginEnd="@dimen/DP60"
+                android:hint="Vehicle Number"
+                android:id="@+id/editTextVehicleNo"
+                android:gravity="center"
+                android:background="@drawable/edittext_border"/>
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editTextVehicleNo"
+                android:textSize="@dimen/SP15"
+                android:id="@+id/textChooseVehicle"
+                android:layout_marginTop="@dimen/DP20"
+                android:textColor="@android:color/black"
+                android:text="CHOOSE A VEHICLE"/>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:id="@+id/relSpinvehicletype"
+                android:background="@drawable/edittext_border"
+                android:layout_below="@id/textChooseVehicle"
+                android:layout_marginStart="@dimen/DP60"
+                android:layout_marginEnd="@dimen/DP60"
+                android:layout_marginTop="@dimen/DP10"
+                android:layout_height="wrap_content">
+
+
+                <Spinner
+                    android:id="@+id/spinnerVehicleType"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/DP40"
+                   />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:id="@+id/relSpinvehicleCompany"
+                android:background="@drawable/edittext_border"
+                android:layout_below="@id/relSpinvehicletype"
+                android:layout_marginStart="@dimen/DP60"
+                android:layout_marginEnd="@dimen/DP60"
+                android:layout_marginTop="@dimen/DP15"
+                android:layout_height="wrap_content">
+
+
+                <Spinner
+                    android:id="@+id/spinnerVehicleCompany"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/DP40"
+                    />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:id="@+id/relSpinvehicleModel"
+                android:background="@drawable/edittext_border"
+                android:layout_below="@id/relSpinvehicleCompany"
+                android:layout_marginStart="@dimen/DP60"
+                android:layout_marginEnd="@dimen/DP60"
+                android:layout_marginTop="@dimen/DP15"
+                android:layout_height="wrap_content">
+
+
+                <Spinner
+                    android:id="@+id/spinnerVehicleModel"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/DP40"
+                    />
+
+
+            </RelativeLayout>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DP40"
+                android:layout_below="@id/relSpinvehicleModel"
+                android:layout_marginStart="@dimen/DP60"
+                android:layout_marginTop="@dimen/DP20"
+                android:layout_marginEnd="@dimen/DP60"
+                android:hint="Year of Make"
+                android:textSize="@dimen/SP15"
+                android:id="@+id/editTextVehicleYearofMake"
+                android:gravity="center"
+                android:background="@drawable/edittext_border"/>
+
+
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/DP20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editTextVehicleYearofMake"
+                android:textSize="@dimen/SP15"
+                android:id="@+id/textvechicleFuelType"
+                android:textColor="@android:color/black"
+                android:text="FUEL TYPE"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_marginStart="@dimen/DP50"
+                android:layout_marginEnd="@dimen/DP50"
+                android:layout_marginTop="@dimen/DP10"
+                android:id="@+id/radioGrpFuelType"
+                android:layout_below="@id/textvechicleFuelType"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioBtnDiesel"
+                    android:layout_marginEnd="@dimen/DP30"
+                    android:text="Diesel"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioBtnPetrol"
+                    android:layout_marginEnd="@dimen/DP30"
+                    android:text="Petrol"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioBtnGas"
+                    android:text="Gas"/>
+
+            </RadioGroup>
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DP40"
+                android:background="@drawable/corner_button_continue"
+                android:layout_below="@id/radioGrpFuelType"
+                android:layout_marginTop="@dimen/DP30"
+                android:id="@+id/btnContinue"
+                android:layout_marginStart="@dimen/DP30"
+                android:layout_marginEnd="@dimen/DP30"
+                android:text="Continue"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/SP15"/>
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+       android:layout_height="wrap_content">
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_margin="@dimen/DP10"
+           android:layout_height="wrap_content">
+
+           <CheckBox
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textStyle="bold"
+               android:id="@+id/checkBoxFlatTyre1"
+               android:text="FLAT TYRE"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:text="1 puncture incl. Extra Rs. 100 each"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/checkBoxFlatTyre1"
+               android:layout_marginStart="@dimen/DP25"/>
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginEnd="@dimen/DP30"
+               android:layout_alignParentEnd="true"
+               android:orientation="horizontal">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textColor="@color/colorPrimary"
+                   android:layout_marginEnd="@dimen/DP5"
+                   android:textSize="@dimen/SP20"
+                   android:text="@string/Rs"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textColor="@color/colorPrimary"
+                   android:textSize="@dimen/SP20"
+                   android:text="350"/>
+           </LinearLayout>
+
+
+       </RelativeLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_margin="@dimen/DP10"
+           android:layout_height="wrap_content">
+
+           <CheckBox
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textStyle="bold"
+               android:id="@+id/checkBoxFlatTyre2"
+               android:text="FLAT TYRE"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:text="1 puncture incl. Extra Rs. 100 each"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/checkBoxFlatTyre2"
+               android:layout_marginStart="@dimen/DP25"/>
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginEnd="@dimen/DP30"
+               android:layout_alignParentEnd="true"
+               android:orientation="horizontal">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textColor="@color/colorPrimary"
+                   android:textSize="@dimen/SP20"
+                   android:layout_marginEnd="@dimen/DP5"
+                   android:text="@string/Rs"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textColor="@color/colorPrimary"
+                   android:textSize="@dimen/SP20"
+                   android:text="350"/>
+           </LinearLayout>
+
+
+       </RelativeLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_margin="@dimen/DP10"
+           android:layout_height="wrap_content">
+
+           <CheckBox
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textStyle="bold"
+               android:id="@+id/checkBoxFlatTyre3"
+               android:text="FLAT TYRE"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:text="1 puncture incl. Extra Rs. 100 each"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/checkBoxFlatTyre3"
+               android:layout_marginStart="@dimen/DP25"/>
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginEnd="@dimen/DP30"
+               android:layout_alignParentEnd="true"
+               android:orientation="horizontal">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textColor="@color/colorPrimary"
+                   android:textSize="@dimen/SP20"
+                   android:layout_marginEnd="@dimen/DP5"
+                   android:text="@string/Rs"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textColor="@color/colorPrimary"
+                   android:textSize="@dimen/SP20"
+                   android:text="350"/>
+           </LinearLayout>
+
+
+       </RelativeLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_margin="@dimen/DP10"
+           android:layout_height="wrap_content">
+
+           <CheckBox
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textStyle="bold"
+               android:id="@+id/checkBoxFlatTyre4"
+               android:text="FLAT TYRE"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:text="1 puncture incl. Extra Rs. 100 each"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/checkBoxFlatTyre4"
+               android:layout_marginStart="@dimen/DP25"/>
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginEnd="@dimen/DP30"
+               android:layout_alignParentEnd="true"
+               android:orientation="horizontal">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textColor="@color/colorPrimary"
+                   android:textSize="@dimen/SP20"
+                   android:layout_marginEnd="@dimen/DP5"
+                   android:text="@string/Rs"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textColor="@color/colorPrimary"
+                   android:textSize="@dimen/SP20"
+                   android:text="350"/>
+           </LinearLayout>
+
+
+       </RelativeLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_margin="@dimen/DP10"
+           android:layout_height="wrap_content">
+
+           <CheckBox
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textStyle="bold"
+               android:id="@+id/checkBoxFlatTyre5"
+               android:text="FLAT TYRE"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:text="1 puncture incl. Extra Rs. 100 each"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/checkBoxFlatTyre5"
+               android:layout_marginStart="@dimen/DP25"/>
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginEnd="@dimen/DP30"
+               android:layout_alignParentEnd="true"
+               android:orientation="horizontal">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textColor="@color/colorPrimary"
+                   android:layout_marginEnd="@dimen/DP5"
+                   android:textSize="@dimen/SP20"
+                   android:text="@string/Rs"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textColor="@color/colorPrimary"
+                   android:textSize="@dimen/SP20"
+                   android:text="350"/>
+           </LinearLayout>
+
+
+       </RelativeLayout>
+
+   </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#eaeaea"
+        android:layout_above="@id/btnSubmitRequest"
+        android:layout_height="@dimen/DP50">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TOTAL"
+            android:textSize="@dimen/SP18"
+            android:textStyle="bold"
+            android:textColor="#222222"
+            android:layout_marginStart="@dimen/DP20"
+            android:layout_centerVertical="true"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/DP30"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#222222"
+                android:layout_marginEnd="@dimen/DP5"
+                android:textSize="@dimen/SP18"
+                android:textStyle="bold"
+                android:text="@string/Rs"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#222222"
+                android:textStyle="bold"
+                android:textSize="@dimen/SP18"
+                android:text="350"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Submit"
+        android:textColor="@android:color/white"
+        android:id="@+id/btnSubmitRequest"
+        android:background="@drawable/zeroborder_continue"/>
+
+</RelativeLayout>
